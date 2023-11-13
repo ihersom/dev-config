@@ -196,6 +196,13 @@ require('lazy').setup({
     dependencies = { {'nvim-tree/nvim-web-devicons'}}
   },
   {
+    'numToStr/Comment.nvim',
+    opts = {
+        -- add any options here
+    },
+    lazy = false,
+  },
+  {
     'chipsenkbeil/distant.nvim',
     branch = 'v0.3',
     config = function()
