@@ -7,7 +7,7 @@ cd ~
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage --appimage-extract
-ln -s ~/squashfs-root/usr/bin/nvim /usr/bin/nvim
+sudo ln -s ~/squashfs-root/usr/bin/nvim /usr/bin/nvim
 
 #Copy Config Over
 mkdir -p ~/.config/nvim/
