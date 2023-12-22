@@ -25,7 +25,7 @@ sudo install lazygit /usr/local/bin
 #	- will need to install lazygit to use the :LazyGit nvim plugin - https://github.com/jesseduffield/lazygit#installation
 #     - will need to install ripgrep and fd-find in order to use the telescope grep_string functionality
 #   - Ubuntu
-      >> sudo apt install libfuse-dev npm nodejs ripgrep fd-find
+#     >> sudo apt install libfuse-dev npm nodejs ripgrep fd-find
 #   - RHEL/RockyLinux/CentOS 
 #     >> sudo dnf copr enable atim/lazygit -y
 #     >> sudo dnf install lazygit
