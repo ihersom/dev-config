@@ -3,7 +3,7 @@
 #Script Assumes you are running from inside nvim-config repo (git clone https://github.com/ihersom/nvim-config.git)
 
 #Install nvim system wide
-cd ~
+pushd ~
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage --appimage-extract
@@ -11,7 +11,9 @@ sudo ln -s ~/squashfs-root/usr/bin/nvim /usr/bin/nvim
 
 #Copy Config Over
 mkdir -p ~/.config/nvim/
-cp -dr nvim-config/* ~/.config/nvim
+
+popd #pop back to the nvim-config directory we should have started from if the script was indeed run from that directory
+cp -dr * ~/.config/nvim
 
 #Install lazygit so neovim plugin can work
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
