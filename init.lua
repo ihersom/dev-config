@@ -50,7 +50,7 @@ require('plugins.cmake')
 require('plugins.telescope')
 require('plugins.mason')
 require('plugins.dap')
-
+require('plugins.indentblankline')
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
