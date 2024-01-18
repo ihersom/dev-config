@@ -48,3 +48,4 @@ vim.keymap.set('n', '<leader>lg', require("ian.plugins.util.terminal3rdparty").g
 vim.keymap.set('n', '<leader>bt', require("ian.plugins.util.terminal3rdparty").system_info_toggle, {desc = 'Open Bottom Monitor UI'})
 vim.keymap.set('n', '<leader>ld', require("ian.plugins.util.terminal3rdparty").docker_info_toggle, {desc = 'Open LazyDocker UI'})
 
+vim.keymap.set('n', '<leader>r', ':NvimTreeToggle<CR>', {desc = 'Toggle Nvim Tree'})

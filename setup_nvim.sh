@@ -20,7 +20,7 @@ cp -dr * ~/.config/nvim
 
 # 3rd party pacakges required for this setup's nvim plugins:
 #   lazygit - 
-#   lazydocker - https://github.com/jesseduffield/lazydocker#installation , https://github.com/jesseduffield/lazydocker/releases
+#   lazydocker - https://github.com/jesseduffield/lazydocker#installation , https://github.com/jesseduffield/lazydocker/releases - AUR git clone https://aur.archlinux.org/lazydocker.git
 #   bottom - https://github.com/ClementTsang/bottom
 #   ripgrep - 
 #   fd-find/fd - 
