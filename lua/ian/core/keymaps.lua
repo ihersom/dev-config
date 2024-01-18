@@ -49,3 +49,7 @@ vim.keymap.set('n', '<leader>bt', require("ian.plugins.util.terminal3rdparty").s
 vim.keymap.set('n', '<leader>ld', require("ian.plugins.util.terminal3rdparty").docker_info_toggle, {desc = 'Open LazyDocker UI'})
 
 vim.keymap.set('n', '<leader>r', ':NvimTreeToggle<CR>', {desc = 'Toggle Nvim Tree'})
+
+vim.keymap.set('n', '<C-j>', '5j', {desc = ''})
+vim.keymap.set('n', '<C-k>', '5k', {desc = ''})
+
