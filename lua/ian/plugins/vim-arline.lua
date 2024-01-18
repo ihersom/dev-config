@@ -1,4 +1,4 @@
 return {
     "vim-airline/vim-airline",
-    event = "BufReadPre",
+    event = {"BufReadPre", "BufNewFile"},
   }
