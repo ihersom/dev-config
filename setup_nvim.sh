@@ -18,6 +18,13 @@ cp -dr * ~/.config/nvim
 #sudo install lazygit /usr/local/bin
 
 
+# 3rd party pacakges required for this setup's nvim plugins:
+#   lazygit - 
+#   lazydocker - https://github.com/jesseduffield/lazydocker#installation , https://github.com/jesseduffield/lazydocker/releases
+#   bottom - https://github.com/ClementTsang/bottom
+#   ripgrep - 
+#   fd-find/fd - 
+# 
 # Now startup neovim anywhere using the "nvim" command, and it will start to install plugins defined by the init.lua config
 # 	- you might experience some problems installing plugins using :Mason from within nvim if python3-virtualenv or python3-venv, npm, and nodejs are not installed
 #	- will need to install lazygit to use the :LazyGit nvim plugin - https://github.com/jesseduffield/lazygit#installation

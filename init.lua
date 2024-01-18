@@ -6,5 +6,6 @@ vim.g.maplocalleader = ' '
 
 require('ian.core.options')
 require('ian.lazy')
+require("ian.plugins.util.terminal3rdparty")
 require("ian.core.keymaps")
 require("ian.core.config_lsp")

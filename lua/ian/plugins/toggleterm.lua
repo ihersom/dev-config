@@ -4,7 +4,7 @@ return {
     version = "*",
     config = function()
         require("toggleterm").setup {
-            size = 20,
+            size = 15,
             hide_numbers = true,
             open_mapping = [[<C-t>]],
             shade_filetypes = {},
@@ -14,5 +14,6 @@ return {
             persist_size = true,
             direction = "horizontal",
           }
+          --require("ian.plugins.util.terminal3rdparty")
     end
 }
