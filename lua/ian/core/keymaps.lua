@@ -9,6 +9,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = '*',
 })
 
+-- Telescope --
 vim.api.nvim_set_keymap(
   "n",
   "<space>fb",
@@ -42,6 +43,8 @@ vim.keymap.set('n', '<leader>sg', require('telescope.builtin').live_grep, { desc
 vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { desc = '[S]earch [D]iagnostics' })
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 
---LazyGit Toggle--
-vim.keymap.set('n', '<leader>LG', require("ian.plugins.util.terminal3rdparty").git_client_toggle, {desc = 'Open LazyGit UI'})
-vim.keymap.set('n', '<leader>BT', require("ian.plugins.util.terminal3rdparty").system_info_toggle, {desc = 'Open Bottom Monitor UI'})
+-- Toggle Terminal 3rd Party Utils --
+vim.keymap.set('n', '<leader>lg', require("ian.plugins.util.terminal3rdparty").git_client_toggle, {desc = 'Open LazyGit UI'})
+vim.keymap.set('n', '<leader>bt', require("ian.plugins.util.terminal3rdparty").system_info_toggle, {desc = 'Open Bottom Monitor UI'})
+vim.keymap.set('n', '<leader>ld', require("ian.plugins.util.terminal3rdparty").docker_info_toggle, {desc = 'Open LazyDocker UI'})
+

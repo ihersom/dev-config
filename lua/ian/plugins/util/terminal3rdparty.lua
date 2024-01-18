@@ -4,13 +4,11 @@ local Terminal = require("toggleterm.terminal").Terminal
 
 -- Git client
 local git_tui = "lazygit"
--- local git_tui = "gitui"
-
 -- Bottom
 local bottom = "btm"
+--LazyDocker--
+local lazy_docker = "lazydocker"
 
--- navi
-local navi = "navi fn welcome"
 
 local git_client = Terminal:new {
   cmd = git_tui,
@@ -33,6 +31,17 @@ local system_info = Terminal:new {
   close_on_exit = true,
 }
 
+local docker_info = Terminal:new {
+  cmd = lazy_docker,
+  dir = "git_dir",
+  hidden = true,
+  direction = "float",
+  float_opts = {
+    border = "double",
+  },
+  close_on_exit = true,
+}
+
 function M.git_client_toggle()
   git_client:toggle()
 end
@@ -41,6 +50,9 @@ function M.system_info_toggle()
   system_info:toggle()
 end
 
+function M.docker_info_toggle()
+  docker_info:toggle()
+end
 
 -- Open a terminal
 local function default_on_open(term)
@@ -65,7 +77,6 @@ function M.open_term(cmd, opts)
   }
   new_term:open(opts.size, opts.direction)
 end
-
 
 
 return M
