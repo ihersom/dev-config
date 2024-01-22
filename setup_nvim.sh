@@ -2,6 +2,12 @@
 
 #Script Assumes you are running from inside nvim-config repo (git clone https://github.com/ihersom/nvim-config.git)
 
+#To Get Neovim on any system you can do the following
+# wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+# chmod u+x nvim.appimage
+# ./nvim.appimage --appimage-extract
+# sudo ln -s ~/squashfs-root/usr/bin/nvim /usr/bin/nvim
+
 #Install nvim system wide
 pushd ~
 
