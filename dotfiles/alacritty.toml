@@ -1,0 +1,16 @@
+shell.program = "C:\\WINDOWS\\system32\\wsl.exe"
+shell.args = ["-d Archlinux", "--cd ~/repo/"]
+
+[window]
+title = "Alacritty"
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 0.99
+
+[scrolling]
+
+[cursor]
+style = "Underline"
+
+[terminal]
+osc52 = "CopyPaste"
