@@ -73,8 +73,8 @@ nmap('<leader>r', ':NvimTreeToggle<CR>', 'Toggle Nvim Tree')
 
 
 -- Navigation --
-nmap('<C-M-j>', '7j', 'Quick nav down w Ctrl+Alt+j')
-nmap('<C-M-k>', '7k', 'Quick nav up Ctrl+Alt+j')
+nmap('<M-j>', '7j', 'Quick nav down w Ctrl+Alt+j')
+nmap('<M-k>', '7k', 'Quick nav up Ctrl+Alt+j')
 
 
 -- Barbar Tabs --
