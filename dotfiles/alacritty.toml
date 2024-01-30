@@ -1,3 +1,6 @@
+#On Windows, the config file should be located at:
+#  %APPDATA%\alacritty\alacritty.toml
+
 shell.program = "C:\\WINDOWS\\system32\\wsl.exe"
 shell.args = ["-d Archlinux", "--cd ~/repo/"]
 
