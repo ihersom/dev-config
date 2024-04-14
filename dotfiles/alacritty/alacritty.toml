@@ -17,3 +17,6 @@ style = "Underline"
 
 [terminal]
 osc52 = "CopyPaste"
+
+[font]
+normal = {family = "0xProto Nerd Font"}
