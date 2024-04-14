@@ -20,3 +20,4 @@ osc52 = "CopyPaste"
 
 [font]
 normal = {family = "0xProto Nerd Font"}
+size = 10.0
