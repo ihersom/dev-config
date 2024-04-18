@@ -41,3 +41,5 @@ vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- vim.opt.autochdir = true
 
 -- vim.wo.relativenumber = true
+
+vim.o.conceallevel = 1
