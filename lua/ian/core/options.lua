@@ -43,3 +43,6 @@ vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- vim.wo.relativenumber = true
 
 vim.o.conceallevel = 1
+
+-- sets code folding
+-- vim.o.foldmethod = 'indent'
