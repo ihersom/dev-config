@@ -11,7 +11,7 @@ check_os() {
     fi
 }
 
-git pull
+#git pull
 OS=$(check_os)
 if [ "$OS" == "Linux" ]; then
     cp -dr * ~/.config/nvim
